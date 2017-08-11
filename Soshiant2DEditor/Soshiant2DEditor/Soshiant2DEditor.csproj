@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3144543B-4A2B-47E1-A8AE-75B999BD4DA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soshiant2DEditor</RootNamespace>
+    <AssemblyName>Soshiant2DEditor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>spiral_128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\ExportApplication\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiproSoftware.Shared.Net20, Version=1.0.88.0, Culture=neutral, PublicKeyToken=8895c2bf6d673e9b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Actipro\ActiproSoftware.Shared.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.SyntaxEditor.Net20, Version=4.0.245.0, Culture=neutral, PublicKeyToken=8895c2bf6d673e9b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Actipro\ActiproSoftware.SyntaxEditor.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiproSoftware.WinUICore.Net20, Version=1.0.88.0, Culture=neutral, PublicKeyToken=8895c2bf6d673e9b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Actipro\ActiproSoftware.WinUICore.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Begin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Begin.Designer.cs">
+      <DependentUpon>Begin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CameraSetings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraSetings.Designer.cs">
+      <DependentUpon>CameraSetings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor Types\LineThickness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor Types\LineThickness.designer.cs">
+      <DependentUpon>LineThickness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor Types\NewLayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor Types\NewLayerForm.designer.cs">
+      <DependentUpon>NewLayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor Types\ParticleEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor Types\ParticleEditor.designer.cs">
+      <DependentUpon>ParticleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor Types\PartManager.cs" />
+    <Compile Include="Editor Types\ResourceManager.cs" />
+    <Compile Include="Editor Types\ResourceMember.cs" />
+    <Compile Include="Editor Types\ScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor Types\ScriptEditor.designer.cs">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor Types\Sequence.cs" />
+    <Compile Include="Editor Types\SpriteEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor Types\SpriteEditor.designer.cs">
+      <DependentUpon>SpriteEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Engine Types\Layer.cs" />
+    <Compile Include="Engine Types\Particle.cs" />
+    <Compile Include="Engine Types\Shape.cs" />
+    <Compile Include="Engine Types\Sprite.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Begin.resx">
+      <DependentUpon>Begin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CameraSetings.resx">
+      <DependentUpon>CameraSetings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor Types\LineThickness.resx">
+      <DependentUpon>LineThickness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor Types\NewLayerForm.resx">
+      <DependentUpon>NewLayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor Types\ParticleEditor.resx">
+      <DependentUpon>ParticleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor Types\ScriptEditor.resx">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor Types\SpriteEditor.resx">
+      <DependentUpon>SpriteEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptEditor.resx">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScriptEditor.Designer.cs">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\backgrnd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\color_mixer_48_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\edite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\export.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\file_fish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\file_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\file_table_cloth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\file_vortex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\gradient_help_32_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\layers_grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\lock.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\play stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\player_end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\player_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\player_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\player_start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\player_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\Polygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\raising.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\rev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\save-as.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\Scripting Droplet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\stone_rokey.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\tab_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visuals\tab_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="spiral_128.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

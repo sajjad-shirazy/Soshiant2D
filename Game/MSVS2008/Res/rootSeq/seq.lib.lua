@@ -1,0 +1,41 @@
+--Library Items ...
+--Texture Library Items ...
+texturesCount = 18 ;
+    texture0_name = "abr_big_L0.png" ;
+    texture0_path = "res\\textures\\abr_big_L0.png" ;
+    texture1_name = "abr_big_L1.png" ;
+    texture1_path = "res\\textures\\abr_big_L1.png" ;
+    texture2_name = "abr_big_L2.png" ;
+    texture2_path = "res\\textures\\abr_big_L2.png" ;
+    texture3_name = "charkh.png" ;
+    texture3_path = "res\\textures\\charkh.png" ;
+    texture4_name = "gol_L0.png" ;
+    texture4_path = "res\\textures\\gol_L0.png" ;
+    texture5_name = "gol_L1.png" ;
+    texture5_path = "res\\textures\\gol_L1.png" ;
+    texture6_name = "gol_L2.png" ;
+    texture6_path = "res\\textures\\gol_L2.png" ;
+    texture7_name = "pad_big_L0.png" ;
+    texture7_path = "res\\textures\\pad_big_L0.png" ;
+    texture8_name = "pad_big_L1.png" ;
+    texture8_path = "res\\textures\\pad_big_L1.png" ;
+    texture9_name = "pad_big_L2.png" ;
+    texture9_path = "res\\textures\\pad_big_L2.png" ;
+    texture10_name = "pad_lit_L0.png" ;
+    texture10_path = "res\\textures\\pad_lit_L0.png" ;
+    texture11_name = "pad_lit_L1.png" ;
+    texture11_path = "res\\textures\\pad_lit_L1.png" ;
+    texture12_name = "pad_lit_L2.png" ;
+    texture12_path = "res\\textures\\pad_lit_L2.png" ;
+    texture13_name = "pad_med_L0.png" ;
+    texture13_path = "res\\textures\\pad_med_L0.png" ;
+    texture14_name = "pad_med_L1.png" ;
+    texture14_path = "res\\textures\\pad_med_L1.png" ;
+    texture15_name = "pad_med_L2.png" ;
+    texture15_path = "res\\textures\\pad_med_L2.png" ;
+    texture16_name = "player.png" ;
+    texture16_path = "res\\textures\\player.png" ;
+    texture17_name = "sun.png" ;
+    texture17_path = "res\\textures\\sun.png" ;
+--End of Texture Library Items ...
+--End of Library Items ...

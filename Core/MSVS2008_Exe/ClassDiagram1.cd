@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Soshiant2D::Sample">
+    <Position X="23.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAABAAAAEQABAAAAEAAAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Audio">
+    <Position X="22.75" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="Soshiant2D::Audio::Samples" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Sajjad\Work\Soshiant\Core\Audio.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="Soshiant2D::Audio::Iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Sajjad\Work\Soshiant\Core\Audio.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAACEAAEAABEAACQAAAAA4KACAAAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Engine">
+    <Position X="0.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIwBFE0GaARFgBgUAACAiQYlCgIAQACmDBgCIFIAEAk=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Entity">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAiAhAAABATAIAIGAAAQRCAEgABAAAAMCAAACgA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Layer">
+    <Position X="8" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAUhKAUACIAAAACAAIAAIAAaAAAEAADEAUAEABCQGgA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Layer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::TextureLibraryItem">
+    <Position X="21" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Library.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::SoundLibraryItem">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Library.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Library">
+    <Position X="18.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAgAECAAAAAAAAABAAAAAAAAIABAAMAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Library.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Manager">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAAAAAAIAAAAAAAAAABAAAABAABAAAEQA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::ParticleSystem">
+    <Position X="16.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEQkAAwBACCCBIBAhAoAQFIEwgIAChbMEAAQQJRAEQA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\ParticleSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Physics">
+    <Position X="20.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAIAAAhAAAAACMAAAIEAAAAABAAAAAAADAAAEA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Physics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Rect">
+    <Position X="23.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAABAAQBAAAAgACKCIQAAAAAAAAAAAgAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Sequence">
+    <Position X="5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAxAABhQqAAAwAAIARgAAABTUACECgTcAPOEKpGYcAE=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Sequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Shape">
+    <Position X="21" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAGAAgAAAACAAAAAAIgAAAAARABgAAAAAAACggACAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Sprite">
+    <Position X="13.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>SRkAbYgwCIG7LUyKSUqGAaBCuRatzIeeIyRRoGiasU8=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Vector3">
+    <Position X="18.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GgAAQAAAAIAABAAAAAAWAQBAAAAIAABAAABgAWABAqA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Vector3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soshiant2D::Window">
+    <Position X="25.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAABFQAQAAAIgAAQQQEBAAAAAYCCAAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAACAAAAgAAAAAAAAAAAAAAAQgAAQAIAABAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer">
+    <Position X="25.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMAAAAAAEAAAAAAAAAIAAAAAAAQAAAAEEUAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Soshiant2D::ShapeTypes">
+    <Position X="23.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sajjad\Work\Soshiant\Core\Shape.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

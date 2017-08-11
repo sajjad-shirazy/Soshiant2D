@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Game">
+</Property><Property Name="Solution File" Value="K:\Sajjad\Work\Soshiant\Game\MSVS2008\Game.sln">
+</Property><Property Name="User Options File" Value="K:\Sajjad\Work\Soshiant\Game\MSVS2008\Game.suo">
+</Property><Property Name="Date" Value="2009/12/23">
+</Property><Property Name="Time" Value="12:03 ب.ظ">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Game.sln" Description="File successfully backed up as K:\Sajjad\Work\Soshiant\Game\MSVS2008\Game.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Game.suo" Description="File successfully backed up as K:\Sajjad\Work\Soshiant\Game\MSVS2008\Game.suo.old">
+</Event><Event ErrorLevel="0" Project="Game" Source="Game.vcproj" Description="Converting project file 'K:\Sajjad\Work\Soshiant\Game\MSVS2008\Game.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Game" Source="Game.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Game" Source="Game.vcproj" Description="Done converting to new project file 'K:\Sajjad\Work\Soshiant\Game\MSVS2008\Game.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Game" Source="Game.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Game.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Game.sln" Description="Converted">
+</Event></UpgradeLog>

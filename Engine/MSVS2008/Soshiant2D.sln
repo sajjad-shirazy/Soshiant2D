@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Soshiant2D", "Soshiant2D.vcproj", "{B015C89C-982E-4769-B741-20198F5BA497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B015C89C-982E-4769-B741-20198F5BA497}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B015C89C-982E-4769-B741-20198F5BA497}.Debug|Win32.Build.0 = Debug|Win32
+		{B015C89C-982E-4769-B741-20198F5BA497}.Release|Win32.ActiveCfg = Release|Win32
+		{B015C89C-982E-4769-B741-20198F5BA497}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+Debug/
+Release/
+*.ncb
+*.pdb
+*.ilk
+*.tmp
+Thumbs.db
